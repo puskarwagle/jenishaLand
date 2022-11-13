@@ -1,159 +1,144 @@
-* {box-sizing:border-box;}
-body {
-	margin:0 0 0 0;
-  padding:0 0 0 0;
-  text-align:center;
+* {
+    box-sizing:border-box;
 }
-
-
-#Header {
-	display:flex;
-	justify-content:space-between;
-	color:white;
-	background-color:cornflowerblue;
-	padding:0.6rem 1rem 0.6rem 1rem;
+ body {
+     margin:0 0 0 0;
+     padding:0 0 0 0;
+     text-align:center;
 }
-#HeadIcons i {
-	margin-right:0.2rem;
+ #Header {
+     display:flex;
+     justify-content:space-between;
+     color:white;
+     background-color:cornflowerblue;
+     padding:0.6rem 1rem 0.6rem 1rem;
 }
-h1 {
-	color:purple;
-	font-size:2rem;
-	margin-left:2.2rem;
+ #HeadIcons i {
+     margin-right:0.2rem;
 }
-hr{width:95%}
-
-
-
-
-#buttons{
-
+ h1 {
+     color:purple;
+     font-size:2rem;
+     margin-left:2.2rem;
 }
-button {
-  background-color:transparent;
-  font-size:1.5rem;
-  border-radius:5px;
-  padding:0.5rem 0.5rem;
-  margin:1rem 2rem 1rem 
+ hr{
+    width:95%
 }
-button:hover {
-  border:auto;
-  background-color:purple;
-  font-size:1.5rem;
-  color:white;
+ #buttons{
 }
-
-
-
-#Construction {
-	font-size:4rem;
-	border:2px solid green;
-	padding:6rem 1.5rem 6rem 1.5rem;
-	background-color:yellow;
-	display:none;
+ button {
+     background-color:transparent;
+     font-size:1.5rem;
+     border-radius:5px;
+     padding:0.5rem 0.5rem;
+     margin:1rem 2rem 1rem 
 }
-#Land{
-  background-color:cornflowerblue;
-  text-align:center;
-  padding:0.6rem 1.5rem 1rem 1.5rem;
+ button:hover {
+     border:auto;
+     background-color:purple;
+     font-size:1.5rem;
+     color:white;
 }
-#Land h1 {
-  color:white
+ #Construction {
+     font-size:4rem;
+     border:2px solid green;
+     padding:6rem 1.5rem 6rem 1.5rem;
+     background-color:yellow;
+     display:none;
 }
-#jagga{
-  display:grid;
-  gap:1rem;
-  grid-template-columns: auto auto auto;
+ #Land{
+     background-color:cornflowerblue;
+     text-align:center;
+     padding:0.6rem 1.5rem 1rem 1.5rem;
 }
-.box{
-  border:1px solid red;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  text-align:left;
+ #Land h1 {
+     color:white 
 }
-.box img{
-  width:100%;
+ #jagga{
+     display:grid;
+     gap:1rem;
+     grid-template-columns: auto auto auto;
 }
-.box span {
-  color:white;
-  font-size:1.0rem;
-  font-weight:600;
+ .box{
+     border:1px solid red;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+     text-align:left;
 }
-.box .jaggaInfo {
-  background-color:gray; 
+ .box img{
+     width:100%;
 }
-#jagga #jagBtn {
-	grid-column: 2 / 2;
+ .box span {
+     color:white;
+     font-size:1.0rem;
+     font-weight:600;
+}
+ .box .jaggaInfo {
+     background-color:gray;
+}
+ #jagga #jagBtn {
+     grid-column: 2 / 2;
 }
 /* End of Land */
-
-
-#form{
-	
-  padding-top:3rem;
-  text-align:left;
-  border:1px solid red;
+ #form{
+     padding-top:3rem;
+     text-align:left;
+     border:1px solid red;
 }
-#form h1{
-  font-size:3rem;
+ #form h1{
+     font-size:3rem;
 }
-input[type="text"],
-input[type="number"],
-input[type="email"],
-textarea {
-  background-color: #FFFFFF;
-  border: 1px solid rgb(174,174,174);
-  height: 2.3rem;
-  width: 85%;
-  cursor: pointer;
-  caret-color: #00ccff;
-  margin: auto auto 0.5rem 1rem;
+ input[type="text"], input[type="number"], input[type="email"], textarea {
+     background-color: #FFFFFF;
+     border: 1px solid rgb(174,174,174);
+     height: 2.3rem;
+     width: 85%;
+     cursor: pointer;
+     caret-color: #00ccff;
+     margin: auto auto 0.5rem 1rem;
 }
-textarea{height:inherit}
-input:focus,
-textarea:focus{
-  outline:none;
-  border:1px solid #00ccff;
+ textarea{
+    height:inherit
 }
-form button{
-  display:inline-block;
-  height:;
-  margin:2rem 1rem 1rem 1rem;
+ input:focus, textarea:focus{
+     outline:none;
+     border:1px solid #00ccff;
 }
-form button:hover{
-  color:white;
+ form button{
+     display:inline-block;
+     margin:2rem 1rem 1rem 1rem;
+}
+ form button:hover{
+     color:white;
 }
 /* End of Form */
-
-
-footer {
-	border:1px solid blue;
-	display:flex;
-	justify-content:space-between;
-	padding:0.6rem 1.5rem 0.6rem 1.5rem;
+ footer {
+     border:1px solid blue;
+     display:flex;
+     justify-content:space-between;
+     padding:0.6rem 1.5rem 0.6rem 1.5rem;
 }
-footer #about {
-	width:50vw;
-	border:2px solid red;
+ footer #about {
+     width:50vw;
+     border:2px solid red;
 }
-footer #midDiv {
-	border:2px solid yellow;
+ footer #midDiv {
+     border:2px solid yellow;
 }
-footer ul {
-  font-size:1.5rem;
-  text-align:left;
-  
-  list-style-type: "\27A2";
+ footer ul {
+     font-size:1.5rem;
+     text-align:left;
+     list-style-type: "\27A2";
 }
-footer li {
-  font-size:1rem;
-  padding-left:0.2rem;
+ footer li {
+     font-size:1rem;
+     padding-left:0.2rem;
 }
-footer li {
-  font-size:1rem;
-  padding-left:0.2rem;
+ footer li {
+     font-size:1rem;
+     padding-left:0.2rem;
 }
-footer #lastDiv {
-	border:2px solid green;
+ footer #lastDiv {
+     border:2px solid green;
 }
