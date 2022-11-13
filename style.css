@@ -4,6 +4,8 @@ body {
   padding:0 0 0 0;
   text-align:center;
 }
+
+
 #Header {
 	display:flex;
 	justify-content:space-between;
@@ -14,11 +16,18 @@ body {
 #HeadIcons i {
 	margin-right:0.2rem;
 }
-h1{color:purple;font-size:2rem;margin-left:2.2rem;}
+h1 {
+	color:purple;
+	font-size:2rem;
+	margin-left:2.2rem;
+}
 hr{width:95%}
+
+
+
+
 #buttons{
-  display:flex;
-  justify-content:space-between;
+
 }
 button {
   background-color:transparent;
@@ -33,17 +42,20 @@ button:hover {
   font-size:1.5rem;
   color:white;
 }
+
+
+
 #Construction {
 	font-size:4rem;
 	border:2px solid green;
 	padding:6rem 1.5rem 6rem 1.5rem;
 	background-color:yellow;
+	display:none;
 }
 #Land{
   background-color:cornflowerblue;
   text-align:center;
   padding:0.6rem 1.5rem 1rem 1.5rem;
-  display:none;
 }
 #Land h1 {
   color:white
@@ -51,7 +63,7 @@ button:hover {
 #jagga{
   display:grid;
   gap:1rem;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: auto auto auto;
 }
 .box{
   border:1px solid red;
@@ -61,7 +73,7 @@ button:hover {
   text-align:left;
 }
 .box img{
-  width:20vw;
+  width:100%;
 }
 .box span {
   color:white;
@@ -71,8 +83,17 @@ button:hover {
 .box .jaggaInfo {
   background-color:gray; 
 }
+#jagga #jagBtn {
+	grid-column: 2 / 2;
+}
+/* End of Land */
+
+
 #form{
-  text-align:center;
+	
+  padding-top:3rem;
+  text-align:left;
+  border:1px solid red;
 }
 #form h1{
   font-size:3rem;
@@ -87,17 +108,25 @@ textarea {
   width: 85%;
   cursor: pointer;
   caret-color: #00ccff;
-  margin: auto auto 0.5rem auto;
+  margin: auto auto 0.5rem 1rem;
 }
 textarea{height:inherit}
 input:focus,
 textarea:focus{
-  outline: none;
-  border: 1px solid #00ccff;
+  outline:none;
+  border:1px solid #00ccff;
 }
 form button{
-  
+  display:inline-block;
+  height:;
+  margin:2rem 1rem 1rem 1rem;
 }
+form button:hover{
+  color:white;
+}
+/* End of Form */
+
+
 footer {
 	border:1px solid blue;
 	display:flex;
@@ -106,17 +135,25 @@ footer {
 }
 footer #about {
 	width:50vw;
-	border:1px solid red;
+	border:2px solid red;
 }
-footer #lastDiv {
-	border:1px solid red;
+footer #midDiv {
+	border:2px solid yellow;
 }
 footer ul {
-  font-size:2rem;
+  font-size:1.5rem;
   text-align:left;
   
   list-style-type: "\27A2";
 }
 footer li {
-  font-size:1rem
+  font-size:1rem;
+  padding-left:0.2rem;
+}
+footer li {
+  font-size:1rem;
+  padding-left:0.2rem;
+}
+footer #lastDiv {
+	border:2px solid green;
 }
