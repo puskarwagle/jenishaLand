@@ -27,7 +27,7 @@ var a = 0;
     };
 
     function buttonMoveLeft(){
-        button.style.transform = 'translateX(-160%)';
+        button.style.transform = 'translateX(-180%)';
     };
 
     function buttonMoveRight(){

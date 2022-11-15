@@ -32,7 +32,8 @@ button {
   border-radius:3px;
   padding:0.5rem 0.5rem;
   background-color:transparent;
-  font-size:1.5rem
+  font-size:1.5rem;
+  float:right;
 }
 button:hover {
   outline:1px solid white;
